@@ -8,6 +8,6 @@ public class AmadeusDbContext : DbContext
     }
 
     // Propiedades que representa las tablas de la base de datos
-
+    public DbSet<User> Users { get; set; }
 
 }
